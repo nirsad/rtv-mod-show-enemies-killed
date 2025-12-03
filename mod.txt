@@ -1,0 +1,10 @@
+[mod]
+name="Show Enemies Killed"
+id="show-enemies-killed"
+version="0.1.0"
+
+[autoload]
+ShowEnemiesKilled="res://ShowEnemiesKilled/Main.gd"
+
+[updates]
+modworkshop=54536
