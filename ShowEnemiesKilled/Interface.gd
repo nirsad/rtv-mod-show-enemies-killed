@@ -28,7 +28,7 @@ func add_enemies_killed_label_node() -> void:
 func update_enemies_killed_label() -> void:
 	if enemies_killed_label != null and AISpawner.spawnPool is int:
 		if AISpawner.activeAgents < active_agents_in_last_frame:
-			enemies_killed += 1
+			enemies_killed += (active_agents_in_last_frame - AISpawner.activeAgents)
 		
 		active_agents_in_last_frame = AISpawner.activeAgents
 		enemies_killed_label.text = "Enemies Killed: %s/%s" % [enemies_killed, AISpawner.spawnPool]

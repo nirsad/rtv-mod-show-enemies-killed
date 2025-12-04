@@ -1,7 +1,7 @@
 [mod]
 name="Show Enemies Killed"
 id="show-enemies-killed"
-version="0.1.0"
+version="0.1.1"
 
 [autoload]
 ShowEnemiesKilled="res://ShowEnemiesKilled/Main.gd"
